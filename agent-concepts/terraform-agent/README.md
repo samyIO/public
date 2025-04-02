@@ -15,7 +15,9 @@ Based on state-of-the-art Agent architectures and workflows, this idea was built
 
 1. AI is a tool for engineers
 2. Human oversight and full controllability
-3. Security by design - the agent should be implemented in the MCP (Model Context Protocol) design pattern, to guarantee possible engineer interventions and action-transparancy
+3. Security by design - the agent should be implemented in the MCP (Model Context Protocol) design pattern, to guarantee possible engineer interventions and action-transparency at any time
+
+Note: Please refer to Anthropics documentation [here](https://modelcontextprotocol.io/introduction), to get further information and guidelines about MCP.
 
 ## Workflow
 
@@ -24,7 +26,7 @@ Please refer to the diagram displayed.
 Note:
 The current workflow displays the basic process capturing the most important aspects of the architecture. 
 
-However, the archtictecture can be significantly enhanced by adding additional tools, data sources or interaction interfaces.
+However, the architecture can be significantly enhanced by adding additional tools, data sources or interaction interfaces.
 
 Recommendation: Add a scraper tool, specialized on terraform provider documentation. This significantly enhances accuracy and enables a broader model choice.
 
@@ -36,4 +38,4 @@ However the main part of the engineer's work is preserved, which is framework cr
 
 IaC provides a more deterministic structure with clearer resource dependencies than general-purpose code, which significantly reduces the complexity of context window optimization - one of the fundamental challenges in AI-assisted coding.
 
-For more benefits please refer to the displayed diagram.
+For more benefits please refer to the diagram displayed.
