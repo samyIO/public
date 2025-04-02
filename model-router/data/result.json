@@ -1,0 +1,316 @@
+{
+  "test_results": [
+    {
+      "question": "What is the capital city of France?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.2,
+        0.3,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "mean_score": 0.22000000000000003,
+      "variance": 0.0015999999999999994
+    },
+    {
+      "question": "How many days are in a week?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.1,
+        0.2,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "mean_score": 0.14,
+      "variance": 0.0024000000000000002
+    },
+    {
+      "question": "What color is a ripe banana?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.3,
+        0.1,
+        0.1,
+        0.2,
+        0.2
+      ],
+      "mean_score": 0.18,
+      "variance": 0.005599999999999999
+    },
+    {
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.2,
+        0.2,
+        0.25,
+        0.34,
+        0.4
+      ],
+      "mean_score": 0.278,
+      "variance": 0.006336000000000001
+    },
+    {
+      "question": "What is the main ingredient in bread?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.2,
+        0.2,
+        0.1,
+        0.1,
+        0.3
+      ],
+      "mean_score": 0.18,
+      "variance": 0.005599999999999999
+    },
+    {
+      "question": "What season comes after summer?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.4,
+        0.3,
+        0.2,
+        0.4,
+        0.2
+      ],
+      "mean_score": 0.3,
+      "variance": 0.008000000000000002
+    },
+    {
+      "question": "What sound does a cat make?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.1,
+        0.3,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "mean_score": 0.2,
+      "variance": 0.003999999999999999
+    },
+    {
+      "question": "How many legs does a spider have?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.1,
+        0.1,
+        0.3,
+        0.1,
+        0.2
+      ],
+      "mean_score": 0.16,
+      "variance": 0.006399999999999999
+    },
+    {
+      "question": "What is the opposite of 'hot'?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.4,
+        0.4,
+        0.4,
+        0.3,
+        0.3
+      ],
+      "mean_score": 0.36,
+      "variance": 0.002400000000000002
+    },
+    {
+      "question": "What planet is closest to the Sun?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.3,
+        0.2,
+        0.2,
+        0.2,
+        0.3
+      ],
+      "mean_score": 0.24,
+      "variance": 0.002399999999999999
+    },
+    {
+      "question": "What is the primary color of stop signs?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.1,
+        0.1,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "mean_score": 0.12000000000000002,
+      "variance": 0.0016
+    },
+    {
+      "question": "What language is spoken in England?",
+      "complexity": "easy",
+      "individual_scores": [
+        0.2,
+        0.2,
+        0.3,
+        0.2,
+        0.2
+      ],
+      "mean_score": 0.22000000000000003,
+      "variance": 0.0015999999999999994
+    },
+    {
+      "question": "How might quantum computing impact current cryptography systems, and what are the potential societal implications?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.7,
+        0.83,
+        0.85,
+        0.85,
+        0.85
+      ],
+      "mean_score": 0.8160000000000001,
+      "variance": 0.003424000000000001
+    },
+    {
+      "question": "What are the primary factors contributing to wealth inequality in developed nations, and how do they interconnect?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.74,
+        0.7,
+        0.6,
+        0.55,
+        0.43
+      ],
+      "mean_score": 0.604,
+      "variance": 0.012183999999999997
+    },
+    {
+      "question": "How does neuroplasticity influence learning throughout different stages of life, and what are its implications for education?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.43,
+        0.86,
+        0.5,
+        0.67,
+        0.64
+      ],
+      "mean_score": 0.62,
+      "variance": 0.0222
+    },
+    {
+      "question": "What role does confirmation bias play in the spread of misinformation, and how can it be effectively counteracted?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.6,
+        0.45,
+        0.44,
+        0.43,
+        0.45
+      ],
+      "mean_score": 0.47400000000000003,
+      "variance": 0.004023999999999999
+    },
+    {
+      "question": "How might climate change affect global food security, and what are the potential cascading effects on international relations?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.8,
+        0.7,
+        0.44,
+        0.8,
+        0.45
+      ],
+      "mean_score": 0.638,
+      "variance": 0.026176000000000005
+    },
+    {
+      "question": "What are the ethical implications of using AI in healthcare decision-making, particularly regarding patient autonomy?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.64,
+        0.45,
+        0.43,
+        0.73,
+        0.64
+      ],
+      "mean_score": 0.5780000000000001,
+      "variance": 0.013816
+    },
+    {
+      "question": "How do different monetary policies affect wealth distribution across different socioeconomic groups?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.83,
+        0.85,
+        0.8,
+        0.4,
+        0.73
+      ],
+      "mean_score": 0.722,
+      "variance": 0.027575999999999996
+    },
+    {
+      "question": "What are the long-term psychological effects of social media usage on adolescent development?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.43,
+        0.45,
+        0.43,
+        0.73,
+        0.56
+      ],
+      "mean_score": 0.52,
+      "variance": 0.01336
+    },
+    {
+      "question": "How does the gut microbiome influence mental health, and what are the implications for psychiatric treatment?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.45,
+        0.47,
+        0.34,
+        0.43,
+        0.4
+      ],
+      "mean_score": 0.418,
+      "variance": 0.0020559999999999984
+    },
+    {
+      "question": "What are the potential consequences of widespread automation on labor markets and social structures?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.8,
+        0.86,
+        0.73,
+        0.85,
+        0.64
+      ],
+      "mean_score": 0.776,
+      "variance": 0.006743999999999998
+    },
+    {
+      "question": "How do different voting systems affect political representation and policy outcomes?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.7,
+        0.85,
+        0.43,
+        0.64,
+        0.6
+      ],
+      "mean_score": 0.6439999999999999,
+      "variance": 0.018663999999999997
+    },
+    {
+      "question": "What role does epigenetics play in the inheritance of trauma across generations?",
+      "complexity": "hard",
+      "individual_scores": [
+        0.44,
+        0.64,
+        0.44,
+        0.8,
+        0.85
+      ],
+      "mean_score": 0.634,
+      "variance": 0.029904000000000003
+    }
+  ]
+}
