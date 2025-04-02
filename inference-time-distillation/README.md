@@ -19,9 +19,9 @@ There are crucial benefits of applying inference-time techniques compared to tra
 - Reasoning injection based on environment
 - Much more dynamic intervention possibilities
 
-Combining the approaches of routing and explicit reasoning yields a promising framework, that could potentially tackle the problem of **overthinking** in reasoning systems, when further researched and developed.
+Combining the approaches of routing and explicit reasoning yields a promising framework that could potentially tackle the problem of **overthinking** in reasoning systems, when further researched and developed.
 
-Note: In the resources folder, you can find chat experiments I did, using a simple prompt to apply the idea of the framework in the most simple way. The chats show how an 8b-model (llama3.1), exhibits self-corrective behavior and indicates advanced reasoning capabilities, by self-assessing its own reasoning in intermediate explicit reasoning steps. Furthermore, the model indicates increased awareness of its own limiations, as the infitite library experiment shows. The experiments also reveal weaknesses, when looking at the first conversation pair of the math calculation experiment, for example. It clearly presents the problem of overthinking, which I would approach using both, model routing and inference-time distillation, as suggested above. Further research and experimentation is required to estimate the effectiveness of this framework at inference-time.
+Note: In the resources folder, you can find chat experiments I did, using a simple prompt to apply the idea of the framework in the most simple way. The chats show how an 8b-model (llama3.1) exhibits self-corrective behavior and indicates advanced reasoning capabilities, by self-assessing its own reasoning in intermediate explicit reasoning steps. Furthermore, the model indicates increased awareness of its own limitations, as the infinite library experiment shows. The experiments also reveal weaknesses, when looking at the first conversation pair of the math calculation experiment, for example. It clearly presents the problem of overthinking, which I would approach using both, model routing and inference-time distillation, as suggested above. Further research and experimentation is required to estimate the effectiveness of this framework at inference-time.
 
 ## Process
 

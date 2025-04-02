@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello, my name is Samer! This repository serves as reputation for my developer and innovator skills in AI. 
+Hello, my name is Samer! This repository serves as reference for my developer and innovator skills in AI. 
 Feel free to explore the repository and enjoy reading.
 
 Everything I know about generative AI and traditional ml is self-learned.
@@ -32,7 +32,13 @@ These Projects show my knowledge about LLMs
 
 ## Usage
 
-1. ```bash
+1. Clone the repository
+    ```bash
+    git clone https://github.com/samyIO/public.git
+    ```
+
+2. Navigate to the project of your choice
+    ```bash
     cd {project_dir_name}
     ```
 
