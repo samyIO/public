@@ -1,0 +1,3 @@
+Total responses: 30
+Responses missing tags: 1 (3.33%)
+Responses with correct tags: 29 (96.67%)

@@ -44,6 +44,25 @@ The improved reasoning is now injected into the final prompt as reasoning trace.
 
 The smaller model now uses the enhanced reasoning trace, reflects on it and generates the final response.
 
+## Benchmark
+
+The Evaluation setup contains an examplary testing suite.
+Goal of the Benchmark was to show that the distillation process has positive effects on the smaller models output.
+
+1. Test data consists of the first 30 entries of the dataset "FreedomIntelligence/medical-o1-reasoning-SFT". 
+Due to hardware constraints I used a very small sample
+
+2. There are two setups 
+- 2b-2b, this setup uses the 2b model for reasoning and response generation
+- 8b-2b, this is the normal distillation setup (8b model for reasoning and 2b model for response generation)
+
+3. The evaluation of the result data was done using claude3.7-Sonnet.
+You can find the analysis results [here](resources/benchmark/comparative-analysis.md)
+
+Note: The given result is not representatitive enough to make a definitive conclusion. 
+I ran the setups several times and included one random run for each setup.
+However, my observations, Claude's analysis and the result data strongly indicate positive effects of this distillation process.
+
 ## Usage
 
 ### Prerequisits
