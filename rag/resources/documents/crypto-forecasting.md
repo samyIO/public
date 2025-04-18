@@ -1,4 +1,5 @@
 # Project: Crypto-Forecasting
+Developed in February 2025
 
 ## Introduction
 
@@ -53,54 +54,6 @@ Note: In the results/plots folder you can find result plots of some experimentat
 ### Evaluation
 
 Due to the one-week timeframe of this project I decided to stick with baseline comparison as evaluation benchmark. This provides the benefit of an easy-to-understand result, without the need of in-depth technical knowledge, which eases the presentation. 
-
-## User Guide
-
-### Linux
-
-### Create & activate a virtual environment
-
-```bash
-python3 -m venv venv
-```
-```bash
-source venv/bin/activate
-```
-### Install the dependencies
-
-```bash
-pip install -r requirements.txt
-```
-### Run the program
-
-```bash
-python3 src/main.py
-```
-
-### Windows
-
-### Create & activate a virtual environment
-
-```cmd
-python -m venv venv
-```
-```cmd
-venv\Scripts\activate
-```
-### Install the dependencies
-
-```cmd
-pip install -r requirements.txt
-```
-
-### Set GPU or CPU usage
-Set the variable "USE_GPU" in the .env file within this folder to "false" if you do not have a GPU in your system. You can ignore this setting otherwise.
-
-### Run the program
-
-```cmd
-python src\main.py
-```
 
 ### Results
 

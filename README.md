@@ -2,14 +2,17 @@
 
 ## Introduction
 
-Hello, my name is Samer! This repository serves as reference for my developer and innovator skills in AI. 
+Hello, my name is Samer! This is my AI-Engineering Portfolio that I'm building
+over the year. 
 Feel free to explore the repository and enjoy reading.
 
-Everything I know about generative AI and traditional ml is self-learned.
-I enjoy exploring new topics, learning skills out of my comfort zone and innovating the focused environment. 
-I'm an original thinker, who accels in cross-domain understanding and idea generation.
 
 ## Projects Overview
+
+Note:
+You can use the **rag** project to explore all other projects!
+The **rag** project offers user friendly UI's and contains data
+about the other projects in the portfolio.
 
 **Inference-time-distillation** - Using LLMs in innovative ways
 
@@ -24,7 +27,7 @@ I'm an original thinker, who accels in cross-domain understanding and idea gener
 
 ## Recommended Projects
 
-These Projects show my knowledge about LLMs
+**rag**
 
 **Inference-time-distillation**
 

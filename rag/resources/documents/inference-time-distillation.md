@@ -1,5 +1,7 @@
 # Experiment: Inference-time Distillation
 
+Developed in February 2025
+
 ## Introduction
 
 In this small project I show the concept of how model distillation can be used during inference-time using explicit CoT and self-reflection.
@@ -60,52 +62,3 @@ You can find the analysis results [here](resources/benchmark/comparative-analysi
 Note: The given result is not representatitive enough to make a definitive conclusion. 
 I ran the setups several times and included one random run for each setup.
 However, my observations, Claude's analysis and the result data strongly indicate positive effects of this distillation process.
-
-## Usage
-
-### Prerequisits
-
-- running ollama endpoint
-- downloaded models 'llama3.2:3b-instruct-q8_0' and 'llama3.1:8b'
-
-### Linux
-
-### Create & activate a virtual environment
-
-```bash
-python3 -m venv venv
-```
-```bash
-source venv/bin/activate
-```
-### Install the dependencies
-
-```bash
-pip install -r requirements.txt
-```
-### Run the program
-
-```bash
-python3 src/main.py
-```
-
-### Windows
-
-### Create & activate a virtual environment
-
-```cmd
-python -m venv venv
-```
-```cmd
-venv\Scripts\activate
-```
-### Install the dependencies
-
-```cmd
-pip install -r requirements.txt
-```
-### Run the program
-
-```cmd
-python src\main.py
-```

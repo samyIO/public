@@ -1,4 +1,5 @@
 # Merkle Tree API
+Developed in February 2025
 
 ## Introduction
 
@@ -48,7 +49,7 @@ Through this project, I've gained practical experience with:
 - Asynchronous programming patterns
 - Error handling in web applications
 
-# User Guide
+## User Guide
 
 ## Overview
 
@@ -68,32 +69,6 @@ This service allows you to:
 - **Detailed Error Handling**: Comprehensive error reporting for easier debugging
 - **Production-Ready Logging**: Built-in tracing for observability
 - **Thread-Safe State Management**: Uses RwLocks for concurrent access to application state
-
-## Requirements
-
-- Rust 1.84.1 or higher
-- Cargo package manager
-
-## Installation
-
-After cloning the Project, proceed with the following steps:
-
-1. Build the project:
-  ```bash
-  cargo build
-  ```
-
-2. Run the server:
-  ```bash
-  cargo run
-  ```
-
-The server will start listening on `127.0.0.1:3000` by default.
-
-Note: you can run the implemented unit tests with:
-  ```bash
-  cargo test
-  ```
 
 ## Understanding Merkle Trees
 
