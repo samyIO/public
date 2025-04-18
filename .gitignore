@@ -39,3 +39,6 @@ lightning_logs
 
 # merkle-tree-api
 target
+
+# rag
+rag/resources/data

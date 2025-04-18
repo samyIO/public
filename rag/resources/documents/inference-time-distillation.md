@@ -1,0 +1,64 @@
+# Experiment: Inference-time Distillation
+
+Developed in February 2025
+
+## Introduction
+
+In this small project I show the concept of how model distillation can be used during inference-time using explicit CoT and self-reflection.
+
+The core difference to trained distillation is the persistence. The effect lasts only for the current context, but this could be conquered with fine-tuning to a certain degree.
+
+Deepseek showed the positive effects in training, when the model expresses its thoughts explicitly. They also showed that distilled reasoning from a bigger model improves performance compared to the used base models.
+
+Refer to the related papers [Deepseek-V3](https://arxiv.org/pdf/2412.19437) and [-R1](https://arxiv.org/pdf/2501.12948) for more information about the training techniques and effects.
+
+There are crucial benefits of applying inference-time techniques compared to training.
+
+- Possibility to use more than one model
+- Environment-specific routing (refer to the project model router)
+- Reasoning injection based on environment
+- Much more dynamic intervention possibilities
+
+Combining the approaches of routing and explicit reasoning yields a promising framework that could potentially tackle the problem of **overthinking** in reasoning systems, when further researched and developed.
+
+Note: In the resources folder, you can find chat experiments I did, using a simple prompt to apply the idea of the framework in the most simple way. The chats show how an 8b-model (llama3.1) exhibits self-corrective behavior and indicates advanced reasoning capabilities, by self-assessing its own reasoning in intermediate explicit reasoning steps. Furthermore, the model indicates increased awareness of its own limitations, as the infinite library experiment shows. The experiments also reveal weaknesses, when looking at the first conversation pair of the math calculation experiment, for example. It clearly presents the problem of overthinking, which I would approach using both, model routing and inference-time distillation, as suggested above. Further research and experimentation is required to estimate the effectiveness of this framework at inference-time.
+
+## Process
+
+![Process](resources/inference-time-distillation.png)
+
+### Step 1
+
+The input is fed to bigger model which is prompted to express
+its internal reasoning for the solution, similiar to chain-of-thoughts.
+
+### Step 2
+
+The same model is prompted to critique the reasoning to improve the quality of the reasoning pattern, or fix mistakes.
+
+### Step 3
+
+The improved reasoning is now injected into the final prompt as reasoning trace. The prompt tells the smaller model to generate a final response based on the trace.
+
+### Step 4
+
+The smaller model now uses the enhanced reasoning trace, reflects on it and generates the final response.
+
+## Benchmark
+
+The Evaluation setup contains an examplary testing suite.
+Goal of the Benchmark was to show that the distillation process has positive effects on the smaller models output.
+
+1. Test data consists of the first 30 entries of the dataset "FreedomIntelligence/medical-o1-reasoning-SFT". 
+Due to hardware constraints I used a very small sample
+
+2. There are two setups 
+- 2b-2b, this setup uses the 2b model for reasoning and response generation
+- 8b-2b, this is the normal distillation setup (8b model for reasoning and 2b model for response generation)
+
+3. The evaluation of the result data was done using claude3.7-Sonnet.
+You can find the analysis results [here](resources/benchmark/comparative-analysis.md)
+
+Note: The given result is not representatitive enough to make a definitive conclusion. 
+I ran the setups several times and included one random run for each setup.
+However, my observations, Claude's analysis and the result data strongly indicate positive effects of this distillation process.
