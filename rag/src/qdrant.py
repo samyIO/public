@@ -8,9 +8,9 @@ def main():
         page_title="Project Information Retriever", page_icon="🔍", layout="wide"
     )
 
-    st.title("Project Information Retriever")
+    st.title("Project Information Guide")
     st.write(
-        "Ask questions about your projects and get answers based on retrieved information."
+        "Ask questions about a portfolio project and get answers based on retrieved information."
     )
 
     # Initialize the database manager

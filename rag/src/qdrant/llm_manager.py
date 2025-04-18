@@ -16,7 +16,6 @@ class LlmManager:
 
     def generate_response(self, user_input, retrieval):
         context = self.create_context_from_retrieval(retrieval)
-        print(f"Generated Context: {context}")
         prompt = self.generate_prompt(user_input, context)
         print(f"Generated Prompt: {prompt}")
         model = init_chat_model("llama3.1:8b", model_provider="ollama", temperature=0.3)
@@ -39,7 +38,7 @@ class LlmManager:
             {context}
         
 
-        Double check if your response would contain all informations of the context.
+        Reflect if your response would contain all informations of the context.
         It is important to preserve all given informations in your response.
 
         """

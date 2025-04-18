@@ -39,12 +39,10 @@ class VectorDbManager:
             query_filter=None,  # If you don't want any filters for now
             limit=7,
         )
-        for hit in search_result:
-            print("######### Retrieved Information #########")
-            print(f"METADATA: {hit.metadata["source"]}")
 
         return search_result
 
+    # just for fun could also simple metadata filter from qdrant
     def majority_vote(self, retrieval):
         # Extract all source IDs
         ids = [candidate.metadata["source"] for candidate in retrieval]
