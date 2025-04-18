@@ -1,5 +1,4 @@
 # Project: Crypto-Forecasting
-Developed in February 2025
 
 ## Introduction
 

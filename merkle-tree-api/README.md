@@ -1,5 +1,4 @@
 # Merkle Tree API
-Developed in February 2025
 
 ## Introduction
 

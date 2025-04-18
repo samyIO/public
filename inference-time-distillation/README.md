@@ -1,7 +1,5 @@
 # Experiment: Inference-time Distillation
 
-Developed in February 2025
-
 ## Introduction
 
 In this small project I show the concept of how model distillation can be used during inference-time using explicit CoT and self-reflection.

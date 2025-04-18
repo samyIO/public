@@ -18,7 +18,7 @@ These are just simple implementations that should give some ideas when approachi
 ### Prerequisits
 
 - running ollama endpoint
-- downloaded model 'llama3.1:8b'
+- downloaded model 'llama3.1:8b' and 'nomic-embed-text'
 - running qdrant endpoint (please refer to the [documentation](https://qdrant.tech/documentation/quickstart/))
 
 ### Linux
