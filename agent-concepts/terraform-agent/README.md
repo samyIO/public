@@ -14,9 +14,7 @@ Based on state-of-the-art Agent architectures and workflows, this idea was built
 
 1. AI is a tool for engineers
 2. Human oversight and full controllability
-3. Security by design - the agent should be implemented in the MCP (Model Context Protocol) design pattern, to guarantee possible engineer interventions and action-transparency at any time
-
-Note: Please refer to Anthropics documentation [here](https://modelcontextprotocol.io/introduction), to get further information and guidelines about MCP.
+3. Security by design - the agent should be implemented with human-in-the-loop design pattern, to guarantee possible engineer interventions and action-transparency at any time
 
 ## Workflow
 

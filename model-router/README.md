@@ -50,9 +50,9 @@ State-of-the-art techniques I used:
     and agree on the best of these via dedicated mechanism. In the case of majority voting
     the answers are rated by other LLMs or similiar.
 
-    I replaced the voting mechanism by using mean aggregation. Since the valid responses are in a numerical solution space, the impact of outliers (hallucinations) can be reduced
-    by taking the mean of the sampled responses, due to the flattening effect of this operation.
-    The upper and lower bound (indicating the environment complexity and if the model is sufficient for it)
+    I replaced the voting mechanism by using mean aggregation. Since the valid responses are in a numerical solution space, 
+    the impact of outliers (hallucinations) can be reduced by taking the mean of the sampled responses, due to the flattening 
+    effect of this operation. The upper and lower bound (indicating the environment complexity and if the model is sufficient for it)
     are simply derived by using relations between the min/max scores from each category (easy, hard). Both are used to calculate
     the midpoint, taking uncovered ranges into consideration.
 
@@ -80,7 +80,8 @@ The hallucinated response could potentially trigger an instruction-contradiction
 2. The conversation continues without correction
 3. The model interprets this continuation as validation
 
-This reinforcement increases the likelihood of further hallucinations. The model attends to the implicit feedback "conversation goes on I must be right". It interprets the continued conversation as validation for its previous responses, if not criticized.
+This reinforcement increases the likelihood of further hallucinations. The model attends to the implicit feedback "conversation goes on I must be right". 
+It interprets the continued conversation as validation for its previous responses, if not criticized.
 
 This dynamic warrants further research, particularly regarding how these error states influence the model's attention patterns during extended conversations.
 
@@ -101,11 +102,13 @@ The routing quality can be evaluated using environment specific metrics:
 1. Create test dataset 
 2. Human-label the data (Labeling with SOTA models may be sufficient)
 3. Run the router module using the test dataset as inputs and store the outputs
-4. Calculate performance metrics like accuracy, precision, and recall for the binary routing decisions and false positive rate (incorrectly routing to complex model) vs. false negative rate (incorrectly routing to simple model).
+4. Calculate performance metrics like accuracy, precision, and recall for the binary routing decisions and false positive rate 
+(incorrectly routing to complex model) vs. false negative rate (incorrectly routing to simple model).
 
 Note: Don't forget to store the current prompt in your benchmark result.
 
-The validation should be implemented in form of monitoring, continously capturing missrouted queries. This data could be used to train the router model periodically.
+The validation should be implemented in form of monitoring, continously capturing missrouted queries. This data could be used to train 
+the router model periodically.
 
 ## Usage
 
